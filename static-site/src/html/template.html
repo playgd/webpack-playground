@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <% htmlWebpackPlugin.files.css.forEach((cssFile) => { %>
+    <link rel="stlesheet" href="<%= cssFile %>">
+  <% }) %>
+</head>
+<body>
+  <div data-js="app">
+    <!-- server -->
+  </div>
+
+  <% htmlWebpackPlugin.files.js.forEach((jsFile) => { %>
+    <script src="<%= jsFile %>"></script>
+  <% })%>
+</body>
+</html>
