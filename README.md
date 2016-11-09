@@ -1,2 +1,2 @@
-# webpack-playground
+# Webpack Playground
 Playing with webpack
