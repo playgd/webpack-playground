@@ -1,5 +1,7 @@
 'use strict'
 
-require.ensure('./a', () => {
-  a()
-})
+import a from './a'
+import anotherA from './components/a'
+
+a()
+anotherA()
