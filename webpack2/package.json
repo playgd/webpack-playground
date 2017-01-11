@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "glob": "^7.1.1",
     "webpack": "beta"
   }
 }
