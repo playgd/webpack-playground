@@ -1,4 +1,4 @@
 'use strict'
 
-import image from './images/Opera-Background-Speaker.jpg'
-console.log(image)
+import './css/style.css'
+console.log('css imported!')

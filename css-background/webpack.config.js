@@ -16,7 +16,16 @@ module.exports = {
       loader: 'babel-loader'
     }, {
       test: /\.jpg$/,
-      loader: 'file-loader'
+      use: [{
+        loader: 'file-loader',
+        query: {
+          name: path.join('images', '[name].[ext]'),
+          publicPath: '/dist/'
+        }
+      }]
+    }, {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader']
     }]
   }
 }
