@@ -18,3 +18,5 @@ module: {
 ```
 
 `publicPath` is used on generated file, concatenated with `name` property.
+
+&copy; 2016 - Fernando Daciuk
