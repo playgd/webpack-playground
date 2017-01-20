@@ -1,3 +1,3 @@
 'use strict'
 
-export default () => 'a'
+export default () => 'a file'
