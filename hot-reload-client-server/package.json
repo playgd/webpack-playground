@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start:server": "rm -rf .build && webpack --config webpack.config.server.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.2.1",
+    "start-server-webpack-plugin": "^2.1.2",
+    "webpack": "^2.2.1",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.23.0",
+    "express": "^4.15.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
