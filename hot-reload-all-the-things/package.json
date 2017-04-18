@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "yarn dev",
-    "start:server": "rm -rf .build && webpack --config webpack/server.config.js",
+    "start": "",
+    "start:server": "rm -rf .build && webpack --config webpack/server-dev.config.js",
     "dev": "webpack-dashboard -- node server.js",
     "test": "jest --coverage",
     "test:watch": "yarn test -- --watch",
