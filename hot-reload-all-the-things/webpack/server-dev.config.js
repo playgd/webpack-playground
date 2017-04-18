@@ -1,7 +1,7 @@
 'use strict'
 
 const webpack = require('webpack')
-const { join }= require('path')
+const { join } = require('path')
 const nodeExternals = require('webpack-node-externals')
 const StartServerPlugin = require('start-server-webpack-plugin')
 
@@ -39,7 +39,6 @@ module.exports = {
     new StartServerPlugin('server.js'),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
         'BUILD_TARGET': '"server"'
