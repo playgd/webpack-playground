@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "webpack --config webpack/dev.config.js"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.0.2",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "webpack-isomorphic-tools": "^3.0.2"
+  }
+}
