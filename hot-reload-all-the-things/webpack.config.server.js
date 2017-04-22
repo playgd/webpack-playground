@@ -1,4 +1,5 @@
 const webpack = require('webpack')
+const { join } = require('path')
 const nodeExternals = require('webpack-node-externals')
 const StartServerPlugin = require('start-server-webpack-plugin')
 
@@ -9,7 +10,7 @@ module.exports = {
   ],
 
   output: {
-    path: '.build',
+    path: join(__dirname, '.build'),
     filename: 'server.js'
   },
 
