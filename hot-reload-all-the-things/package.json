@@ -8,7 +8,6 @@
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
-    "cors": "^2.8.3",
     "npm-run-all": "^4.0.2",
     "react-hot-loader": "next",
     "start-server-webpack-plugin": "^2.2.0",
