@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start:server": "rm -rf .build && webpack --config webpack.config.server.js"
+  },
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
