@@ -11,6 +11,9 @@
     "webpack-node-externals": "^1.5.4"
   },
   "dependencies": {
-    "express": "^4.15.2"
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   }
 }
