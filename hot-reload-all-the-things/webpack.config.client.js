@@ -13,7 +13,7 @@ module.exports = {
 
   output: {
     path: join(__dirname, '.build'),
-    publicPath: 'http://localhost:3001',
+    publicPath: 'http://localhost:3001/',
     filename: 'client.js'
   },
 

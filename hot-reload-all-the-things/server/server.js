@@ -1,9 +1,12 @@
 import express from 'express'
+import cors from 'cors'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import App from '../common/app'
 
 const app = express()
+
+app.use(cors())
 
 app.get('/api', (req, res) => {
   res.send({ message: 'I am a server route and can also be hot reloaded!' })
