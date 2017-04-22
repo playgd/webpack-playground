@@ -1,1 +1,10 @@
-{}
+{
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "start-server-webpack-plugin": "^2.2.0",
+    "webpack": "^2.4.1",
+    "webpack-node-externals": "^1.5.4"
+  }
+}
