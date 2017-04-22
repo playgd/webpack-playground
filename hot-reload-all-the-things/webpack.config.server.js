@@ -28,7 +28,10 @@ module.exports = {
       {
         test: /\.js$/,
         use: 'babel-loader',
-        exclude: /node_modules/
+        include: [
+          join(__dirname, 'server'),
+          join(__dirname, 'common')
+        ]
       }
     ]
   },
