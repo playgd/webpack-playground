@@ -21,6 +21,7 @@ app.get('*', (req, res) => {
       <body>
         <div data-js="root">${application}</div>
       </body>
+      <script src="http://localhost:3001/client.js"></script>
     </html>
   `
 
