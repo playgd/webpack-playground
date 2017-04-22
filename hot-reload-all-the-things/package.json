@@ -6,5 +6,8 @@
     "start-server-webpack-plugin": "^2.2.0",
     "webpack": "^2.4.1",
     "webpack-node-externals": "^1.5.4"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
   }
 }
