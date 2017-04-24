@@ -1,3 +1,3 @@
 # Webpack Playground
 
-> Playing with webpack
+> Playing with Webpack
