@@ -1,1 +1,1 @@
-console.log('HELLO FROM WEBPACK ACADEMY!')
+import fooString from './foo'
