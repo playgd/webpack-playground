@@ -1,4 +1,5 @@
 {
+  "name": "trying-to-hot-reload-all-the-things",
   "scripts": {
     "start": "rm -rf ./.build && npm-run-all --parallel start:server start:client",
     "start:server": "webpack --config webpack.config.server.js",
