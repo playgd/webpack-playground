@@ -1,4 +1,5 @@
 {
+  "name": "trying-to-make-a-static-site",
   "scripts": {
     "start": "webpack -w",
     "build": "webpack"
